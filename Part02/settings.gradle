@@ -1,0 +1,2 @@
+include ':part2_4', ':part2_3'
+rootProject.name='Part02'
