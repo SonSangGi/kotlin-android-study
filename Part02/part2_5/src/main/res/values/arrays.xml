@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dialog_array">
+        <item>숭</item>
+        <item>상</item>
+        <item>숭숭</item>
+        <item>상상</item>
+        <item>이승연</item>
+        <item>손상기</item>
+    </string-array>
+</resources>
