@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!--기준-->
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/icon" />
+
+    <!--기준 오른쪽 위치-->
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/image"
+        android:text="손상기"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <!--name의 아래쪽 위치, 왼쪽 맞춤-->
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_alignLeft="@id/name"
+        android:layout_marginTop="10dp"
+        android:text="재미있는 레이아웃 ~" />
+
+    <!--  레이아웃 오른쪽 위치, name 기준 텍스트 라인 맞춤  -->
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20.3.23"
+        android:layout_alignBaseline="@id/name"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
