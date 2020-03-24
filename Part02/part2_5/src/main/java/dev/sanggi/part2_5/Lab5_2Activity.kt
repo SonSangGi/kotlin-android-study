@@ -100,7 +100,7 @@ class Lab5_2Activity : AppCompatActivity(), View.OnClickListener {
                 val inflater = getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
                 AlertDialog.Builder(this)
                     .setView(inflater.inflate(R.layout.dialog_layout, null))
-                    .setPositiveButton("확인") {dialog, which -> showToast("custom dialog 확인 클릭!") }
+                    .setPositiveButton("확인") { dialog, which -> showToast("custom dialog 확인 클릭!") }
                     .setNegativeButton("취소", null)
                     .create()
                     .show()
