@@ -34,7 +34,9 @@ class Lab6_1Activity : AppCompatActivity(), View.OnClickListener,
             - ACTION_DOWN: 터치된 순간의 이벤트
             - ACTION_UP: 터치를 떼는 순간의 이벤트
             - ACTIVE_MOVE: 터치한 후 이동하는 순간의 이벤트
-        @onKeyDown:
+        @onKeyDown: 키를 늘렀을 때의 이벤트 처리
+        @onKeyUp: 키를 떼는 순간의 이벤트 처리
+        @onKeyLongPress: 키를 오래 늘렀을 때의 이벤트 처리
      */
 
     override fun onCreate(savedInstanceState: Bundle?) {
