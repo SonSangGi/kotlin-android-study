@@ -12,14 +12,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".work2.ClockActivity"></activity>
-        <activity android:name=".work2.LoadingActivity">
+        <activity android:name=".work3.Main4Activity"></activity>
+        <activity android:name=".work3.Main1Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".work3.Main2Activity" />
+        <activity android:name=".work3.Main3Activity" />
+        <activity android:name=".work2.ClockActivity" />
+        <activity android:name=".work2.LoadingActivity" />
         <activity android:name=".work1.LoadingActivity" />
         <activity android:name=".work1.MapActivity" />
 
