@@ -1,2 +1,2 @@
-include ':part3_8'
+include ':part3_8', ':part3_9', ':part3_mission'
 rootProject.name='Part03'
